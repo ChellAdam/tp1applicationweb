@@ -1,7 +1,14 @@
+body( 
+   margin: 0;
+   padding: 0;
+   
+
 h1{
- color: blue; 
+ color: black; 
 }
 
 h2{
- color: red;
+ color: black;
 }
+
+.section1
