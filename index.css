@@ -1,6 +1,4 @@
-body( 
-   margin: 0;
-   padding: 0;
+
    
 
 h1{
@@ -11,4 +9,9 @@ h2{
  color: black;
 }
 
-.section1
+nav{
+    
+    margin: 0;
+    padding: 0;
+   background-color: black;
+}
