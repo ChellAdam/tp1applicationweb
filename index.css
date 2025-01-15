@@ -2,12 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, black 50%, violet 100%);
+    background: linear-gradient(to bottom, black 50%, violet 50%);
     width: 100%;
     height: 100%;
     box-sizing: border-box;
 }
-
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -17,16 +16,18 @@ body {
     padding: 10px 20px;
 }
 
-.Bouton-achat {
-    background-color: transparent;
-    border: 2px solid violet;
-    color: violet;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
+.Logo {
+        color: white;       
+}
+
+.Accueil {
+        color: white;       
+}
+
+.Contact {
+        color: white;       
+}
+
+.Achat {
+        color: white;       
 }
