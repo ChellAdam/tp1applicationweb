@@ -1,6 +1,6 @@
 :root {
     /* Définition des variables pour les couleurs */
-    --building-color4: #purple; /* Couleur d'exemple, remplacez par ce que vous voulez */
+    --building-color4: purple; /* Couleur d'exemple, remplacez par ce que vous voulez */
 }
 
 body {
@@ -27,18 +27,22 @@ body {
     padding: 10px 20px;
 }
 
-.nav-container .Logo,
-.nav-container .Accueil,
-.nav-container .Contact,
-.nav-container .Achat {
+.Logo {
     color: white;
     text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
 }
 
-/* Optionnel : hover pour un effet visuel */
-.nav-container .Logo:hover,
-.nav-container .Accueil:hover,
-.nav-container .Contact:hover,
-.nav-container .Achat:hover {
-    color: #ccc; /* Couleur légèrement plus claire au survol */
+.Accueil {
+    color: white;
+    text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
+}
+
+.Contact {
+    color: white;
+    text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
+}
+
+.Achat {
+    color: white;
+    text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
 }
