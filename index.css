@@ -15,24 +15,14 @@ body {
     align-items: center;
     background-color: transparent;
     padding: 10px 20px;
-}
-
-.Logo {
-    color: rgb(237, 225, 225);
-    text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
-}
-
-.Accueil {
+.nav-item {
     color: white;
-    text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 1.2rem;
+    cursor: pointer; /* Indique que c'est cliquable */
 }
 
-.Contact {
-    color: white;
-    text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
+.nav-item:hover {
+    color: rgb(200, 200, 200); /* Changement de couleur au survol */
 }
 
-.Achat {
-    color: white;
-    text-decoration: none; /* Ajout pour éviter le soulignement si ce sont des liens */
-}
