@@ -39,10 +39,13 @@ nav {
 }
 
 .Achat {
-    display: inline-block;
-    padding: 10px , 20px;
-    border: 2px solid purple; 
-    border-radius: 10px; 
-    text-align: center; 
-    background-color: transparent;
+    display: inline-block; /* Assure que le rectangle entoure uniquement le texte */
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte */
+    background-color: transparent; /* Fond transparent */
+    border: 2px solid purple; /* Bordure violette de 2px d'épaisseur */
+    border-radius: 10px; /* Coins arrondis */
+    text-align: center; /* Centre le texte à l'intérieur du bouton */
+    font-weight: bold; /* Texte en gras */
+    color: white; /* Couleur du texte */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
