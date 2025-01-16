@@ -33,8 +33,15 @@ nav {
     transition: color 0.3s ease; 
 }
 
-/* Survol des liens */
 .nav-container a:hover {
     color: rgb(200, 200, 200); 
     cursor: pointer;
+}
+
+.Achat {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-color: purple;
+    border-radius: 10px;
 }
