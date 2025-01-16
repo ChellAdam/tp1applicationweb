@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     margin: 0;
     padding: 0;
@@ -39,9 +39,10 @@ nav {
 }
 
 .Achat {
-    width: 100px;
-    height: 100px;
+    display: inline-block;
+    padding: 10px , 20px;
+    border: 2px solid purple; 
+    border-radius: 10px; 
+    text-align: center; 
     background-color: transparent;
-    border-color: purple;
-    border-radius: 10px;
 }
