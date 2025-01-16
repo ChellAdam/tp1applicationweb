@@ -4,18 +4,18 @@ body {
     padding: 0;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-image: linear-gradient(to bottom, black, rgb(50, 2, 50));
-    height: 100vh; /* Le body occupe toute la hauteur de l'écran */
-    color: white; /* Couleur par défaut du texte */
+    height: 100vh; 
+    color: white;
 }
 
-/* Navbar Styles */
+
 nav {
-    background-color: transparent; /* Fond transparent pour le nav */
+    background-color: transparent; 
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-around; /* Égalise l'espacement entre les éléments */
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
 }
@@ -24,17 +24,17 @@ nav {
     text-align: center;
 }
 
-/* Lien de la navigation */
+
 .nav-container a {
-    color: white; /* Liens en blanc */
-    text-decoration: none; /* Supprime le soulignement */
-    font-size: 1.2rem; /* Taille du texte des liens */
-    font-weight: bold; /* Texte en gras */
-    transition: color 0.3s ease; /* Animation sur le changement de couleur */
+    color: white;
+    text-decoration: none; 
+    font-size: 0.8rem; 
+    font-weight: bold;
+    transition: color 0.3s ease; 
 }
 
 /* Survol des liens */
 .nav-container a:hover {
-    color: rgb(200, 200, 200); /* Couleur grise claire au survol */
-    cursor: pointer; /* Curseur pointer pour indiquer un lien cliquable */
+    color: rgb(200, 200, 200); 
+    cursor: pointer;
 }
