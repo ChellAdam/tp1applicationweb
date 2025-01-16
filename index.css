@@ -1,28 +1,40 @@
-
-
-
+/* Global Styles */
 body {
     margin: 0;
     padding: 0;
-    font-family: "Trebuchet MS", helvetica, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-image: linear-gradient(to bottom, black, rgb(50, 2, 50));
     height: 100vh; /* Le body occupe toute la hauteur de l'écran */
+    color: white; /* Couleur par défaut du texte */
+}
+
+/* Navbar Styles */
+nav {
+    background-color: transparent; /* Fond transparent pour le nav */
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Égalise l'espacement entre les éléments */
     align-items: center;
-    background-color: transparent;
     padding: 10px 20px;
-.nav-item {
-    color: white;
+}
+
+.nav-container > div {
+    text-align: center;
+}
+
+/* Lien de la navigation */
+.nav-container a {
+    color: white; /* Liens en blanc */
     text-decoration: none; /* Supprime le soulignement */
-    font-size: 1.2rem;
-    cursor: pointer; /* Indique que c'est cliquable */
+    font-size: 1.2rem; /* Taille du texte des liens */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s ease; /* Animation sur le changement de couleur */
 }
 
-.nav-item:hover {
-    color: rgb(200, 200, 200); /* Changement de couleur au survol */
+/* Survol des liens */
+.nav-container a:hover {
+    color: rgb(200, 200, 200); /* Couleur grise claire au survol */
+    cursor: pointer; /* Curseur pointer pour indiquer un lien cliquable */
 }
-
