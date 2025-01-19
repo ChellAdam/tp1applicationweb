@@ -20,6 +20,12 @@ nav {
     padding: 10px 20px;
 }
 
+.nav-container .Acheter {
+    font-size: 0.5rem;
+    color: grey;
+}
+
+
 .nav-container > div {
     text-align: center;
 }
@@ -46,9 +52,6 @@ nav {
     border-radius: 5px; /* Coins arrondis */
     border: solid 3px rgb(78, 3, 93); /* Bordure violette épaisse */
     cursor: pointer;
-    font-size: 0.5rem; /* Réduit la taille du texte */
-    color: grey; /* Couleur du texte */
-    font-family: "Trebuchet MS", Helvetica, sans-serif; /* Police utilisée */
 }
 
 .Acheter:hover {
