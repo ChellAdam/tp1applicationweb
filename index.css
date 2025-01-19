@@ -52,4 +52,8 @@ nav {
     text-color: grey;
 }
 
+.Acheter:hover {
+    background-color: rgba(78, 3, 93, 0.1); /* Légère couleur violette au survol */
+}
+
 
