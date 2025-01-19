@@ -40,11 +40,11 @@ nav {
 
 
 .Acheter {
-    width: 100px; /* Largeur du bouton */
-    height: 100px; /* Hauteur du bouton */
+    width: 20px; /* Largeur du bouton */
+    height: 20px; /* Hauteur du bouton */
     background-color: transparent; /* Fond transparent */
-    border-radius: 15px; /* Coins arrondis */
-    border: 6px solid purple; /* Bordure violette épaisse */
+    border-radius: 10px; /* Coins arrondis */
+    border: 3px solid purple; /* Bordure violette épaisse */
     display: inline-block; /* Optionnel, pour les boutons en ligne */
     cursor: pointer; /* Ajoute une icône de main survol */
 }
