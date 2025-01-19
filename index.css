@@ -20,12 +20,6 @@ nav {
     padding: 10px 20px;
 }
 
-.nav-container .Acheter {
-    font-size: 0.5rem;
-    color: grey;
-}
-
-
 .nav-container > div {
     text-align: center;
 }
@@ -46,6 +40,7 @@ nav {
 
 
 .Acheter {
+    font-size: 0.5rem;
     width: 90px; /* Largeur du bouton */
     height: 20px; /* Hauteur du bouton */
     background-color: transparent; /* Fond transparent */
