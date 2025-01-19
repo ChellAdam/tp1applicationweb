@@ -46,8 +46,8 @@ nav {
     border-radius: 5px; /* Coins arrondis */
     border: solid 3px rgb(78, 3, 93); /* Bordure violette épaisse */
     cursor: pointer;
-    font-size: 0.8rem; /* Réduit la taille du texte */
-    color: white; /* Couleur du texte */
+    font-size: 0.5rem; /* Réduit la taille du texte */
+    color: grey; /* Couleur du texte */
     font-family: "Trebuchet MS", Helvetica, sans-serif; /* Police utilisée */
 }
 
