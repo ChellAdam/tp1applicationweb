@@ -38,3 +38,12 @@ nav {
     cursor: pointer;
 }
 
+
+.Acheter {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
