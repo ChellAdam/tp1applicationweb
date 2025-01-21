@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 header{ background-image: linear-gradient(to bottom, black, rgb(50, 2, 50));
-        padding: 30px;
-        margin: 0;
-        
+        margin: 0;       
 }
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    height: 100vh; 
     color: white;
 }
  
@@ -76,25 +73,29 @@ header nav h1 {
 }
 
 h2 {
-    color: #d33bfd;;
-    text-transform: uppercase;
+    color: #ffffff;;
     margin: 0;
+    font-size: 4vw;
 }
 
+p { font-size: 1.1vw;
+    font-weight: 300;
+    color: #e9e9e9;}
 
 .Acheter-maintenant {
-    padding: 5px 10px; /* Marge intérieure */
+    padding: 15px 20px; /* Marge intérieure */
     font-size: 16px;
     background-color: inherit; 
-    border-radius: 5px; /* Coins arrondis */
+    border-radius: 15px; /* Coins arrondis */
     border: solid 1.5px rgb(78, 3, 93); /* Bordure violette épaisse */
     cursor: pointer;
     color:  #f4ecf7;; /* Couleur du texte */
     background-color: #d33bfd;; /* Couleur de fond */
+    margin-top: 20px;
 }
 
 .mini-photo {
-        margin-top: 30px;
+        margin-top: 40px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row; 
@@ -117,5 +118,31 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #33314d;
+    background-color: #13181d;
+}
+
+.voir-specifications {
+    padding: 15px 20px; /* Marge intérieure */
+    font-size: 16px;
+    background-color: inherit; 
+    border-radius: 5px; /* Coins arrondis */
+    border: solid 1.5px rgb(78, 3, 93); /* Bordure violette épaisse */
+    cursor: pointer;
+    color:  #f4ecf7;; /* Couleur du texte */
+    background-color: #d33bfd;; /* Couleur de fond */
+}
+
+h3 {
+    font-family: "Montserrat";
+    color: #d33bfd;;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h4 {
+    color: #fffeff;;
+    margin: 0;
+    width: 80%;
+    font-size:4vw ;
+    margin-top: 15px;
 }
