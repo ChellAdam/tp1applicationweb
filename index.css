@@ -207,23 +207,23 @@ h4 {
     }
 
     header nav h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .Acheter, .Acheter-maintenant, .voir-specifications {
-        font-size: 14px;
-        padding: 10px 15px;
+        font-size: 12px;
+        padding: 8px 12px;
     }
 
     h2 {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     p {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     .photo img {
-        width: 100px;
+        width: 80px;
     }
 }
