@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        background-color: lightcoral;
+        padding: 15px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Media query pour les écrans très petits (smartphones) */
+@media (max-width: 480px) {
+    .container {
+        background-color: lightgreen;
+        padding: 10px;
+    }
+}
+
 header{ background-image: linear-gradient(to bottom, black, rgb(50, 2, 50));
         margin: 0;       
 }
+
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
@@ -145,4 +166,12 @@ h4 {
     width: 80%;
     font-size:4vw ;
     margin-top: 15px;
+}
+
+.partie-trois{
+    padding: 30px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
 }
