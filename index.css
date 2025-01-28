@@ -1,24 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-        background-color: lightcoral;
-        padding: 15px;
-    }
 
-    body {
-        font-size: 16px;
-    }
-}
-
-/* Media query pour les écrans très petits (smartphones) */
-@media (max-width: 480px) {
-    .container {
-        background-color: lightgreen;
-        padding: 10px;
-    }
-}
 
 header{ background-image: linear-gradient(to bottom, black, rgb(50, 2, 50));
         margin: 0;       
@@ -174,4 +156,38 @@ h4 {
     align-items: center;
     justify-content: space-between;
     background-color: #000000;
+}
+
+/* Styles pour mobiles */
+@media (max-width: 480px) {
+    nav {
+        padding: 10px 5% 0px 5%;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-container > div {
+        margin-bottom: 5px;
+    }
+
+    header nav h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Styles pour tablettes */
+@media (max-width: 768px) {
+    nav {
+        padding: 20px 5% 0px 5%;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-container > div {
+        margin-bottom: 10px;
+    }
 }
