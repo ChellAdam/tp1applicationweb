@@ -136,7 +136,7 @@ p { font-size: 1.1vw;
 }
 
 h3 {
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     color: #d33bfd;;
     text-transform: uppercase;
     margin: 0;
@@ -150,80 +150,25 @@ h4 {
     margin-top: 15px;
 }
 
-.partie-trois{
+
+.partie-deux{
     padding: 30px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #000000;
+    background-color: #131212;
 }
 
-/* Styles pour mobiles */
-@media (max-width: 480px) {
-    nav {
-        padding: 10px 5% 0px 5%;
-    }
-
-    .nav-container {
-        flex-direction: column;
-    }
-
-    .nav-container > div {
-        margin-bottom: 5px;
-    }
-
-    header nav h1 {
-        font-size: 1.5em;
-    }
+footer {
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-/* Styles pour tablettes */
-@media (max-width: 768px) {
-    nav {
-        padding: 20px 5% 0px 5%;
-    }
-
-    .nav-container {
-        flex-direction: column;
-    }
-
-    .nav-container > div {
-        margin-bottom: 10px;
-    }
-}
-
-/* Styles pour iPhone 15 */
-@media (max-width: 430px) and (max-height: 932px) and (-webkit-device-pixel-ratio: 3) {
-    nav {
-        padding: 10px 5% 0px 5%;
-    }
-
-    .nav-container {
-        flex-direction: column;
-    }
-
-    .nav-container > div {
-        margin-bottom: 5px;
-    }
-
-    header nav h1 {
-        font-size: 1.2em;
-    }
-
-    .Acheter, .Acheter-maintenant, .voir-specifications {
-        font-size: 12px;
-        padding: 8px 12px;
-    }
-
-    h2 {
-        font-size: 5vw;
-    }
-
-    p {
-        font-size: 2.5vw;
-    }
-
-    .photo img {
-        width: 80px;
-    }
+footer p{
+    cursor: pointer;
+    color: white
 }
